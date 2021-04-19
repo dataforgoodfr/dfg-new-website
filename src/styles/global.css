@@ -1,0 +1,39 @@
+@tailwind base;
+
+
+@layer base {
+  h1 {
+    @apply text-3xl font-bold mt-2 mb-1;
+  }
+  h2 {
+    @apply text-2xl font-bold text-blue-700 mt-2 mb-1;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  ul {
+    @apply list-disc;
+  }
+}
+
+
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --primary: #24b0b7;
+    --secondary: #000;
+}
+
+
+body{
+  font-family: "Inter";
+  overflow-y:scroll;
+}
+
+.blue {
+    --main-500: #24b0b7;
+    --main-400: #2edce5;
+  }
+
