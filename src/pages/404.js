@@ -33,7 +33,7 @@ const NotFoundPage = () => {
       <p style={paragraphStyles}>
         Sorry{" "}
         <span role="img" aria-label="Pensive emoji">
-          😔 404
+          😔 404 Test
         </span>{" "}
         we couldn’t find what you were looking for.
         <br />
